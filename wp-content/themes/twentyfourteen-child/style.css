@@ -1,0 +1,14 @@
+/*
+Theme Name : Pauls Level Up Child
+Theme URI : http://localhost:8888/
+Description: This is a tutorial learning the basics of wordpress
+Author: Paul Ramirez
+Author URI: http://localhost:8888
+Template: twentyfourteen
+Version: 0.1
+ */
+@import url("../twentyfourteen/style.css");
+
+body {
+    background: blue;
+}
