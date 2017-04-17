@@ -9,18 +9,6 @@ Version: 0.1
  */
 @import url("../twentyfourteen/style.css");
 
-.site {
-    background-color: #EEEEEE;
-}
-
-
-.site-content, .entry-header, .entry-meta, div.site-content, .entry-content {
-    background: #EEEEEE;
-}
-
-body {
-    background: blue;
-}
 
 .entry-title {
     font-size: 40px;
