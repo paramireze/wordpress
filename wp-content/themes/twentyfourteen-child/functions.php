@@ -7,3 +7,18 @@ function twentyfourteen_child_theme_scripts() {
 }
 
 add_action( 'wp_enqueue_scripts', 'twentyfourteen_child_theme_scripts' );
+
+function twentyfourteen_child_widgets_init() {
+
+    register_sidebar( array(
+        'name' => 'Tutorial Widget Area',
+        'id' => 'tutorial_widget_area',
+        'brefore_widget' => '<aside>',
+        'after_widget' => '</aside>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>'
+    ));
+
+}
+
+add_action( 'widgets_init', 'twentyfourteen_child_widgets_init' );
