@@ -50,6 +50,8 @@ get_header(); ?>
 			endif;
 		?>
 
+        <?php wp_nav_menu( array( 'theme_location' => 'new-menu' ) )  ?>
+
         <?php if ( dynamic_sidebar( 'tutorial_widget_area' ) ) : else : endif; ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->

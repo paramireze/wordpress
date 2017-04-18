@@ -22,3 +22,11 @@ function twentyfourteen_child_widgets_init() {
 }
 
 add_action( 'widgets_init', 'twentyfourteen_child_widgets_init' );
+
+function twentyfourteen_child_register_menu() {
+
+    register_nav_menu( 'new-menu', __( 'Our New Menu' ) );
+
+}
+
+add_action( 'init', 'twentyfourteen_child_register_menu' );
