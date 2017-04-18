@@ -50,6 +50,7 @@ get_header(); ?>
 			endif;
 		?>
 
+        <?php if ( dynamic_sidebar( 'tutorial_widget_area' ) ) : else : endif; ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 	<?php get_sidebar( 'content' ); ?>
